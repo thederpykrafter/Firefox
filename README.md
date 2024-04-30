@@ -1,9 +1,11 @@
 # tdk.firefox
 My slightly modified Firefox CSS theme<br>
 [Original Theme](https://github.com/hakan-demirli/Firefox_Custom_CSS) by 
-[hakan-demirli](https://github.com/hakan-demirli)
+[hakan-demirli](https://github.com/hakan-demirli)<br>
 
-Firefox CSS theme to maximize the vertical space of your monitor.
+Firefox CSS theme to maximize the vertical space of your monitor.<br>
+Copy this theme to your firefox profile folder.<br>
+To find firefox profile navigate to `about:support` and under Profile Folder click open folder
 
 #### Windowed (rounded corners from windows)
 ![windowed preview](pics/windowed.png?raw=true)
