@@ -1,0 +1,9 @@
+# ignore all other files in firefox profile
+/*
+
+# commit these
+!.gitignore
+!README.md
+!user.js
+!chrome/
+!chrome/*
