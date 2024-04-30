@@ -1,10 +1,16 @@
 # tdk.firefox
-My slightly modified Firefox CSS theme
+My slightly modified Firefox CSS theme<br>
+[Original Theme](https://github.com/hakan-demirli/Firefox_Custom_CSS) by 
+[hakan-demirli](https://github.com/hakan-demirli)
 
 Firefox CSS theme to maximize the vertical space of your monitor.
 
-![alt text](pics/overall.png?raw=true)
-(Background: [Tempano Port by Duwon Lee](https://www.artstation.com/artwork/dB84A))
+#### Windowed (rounded corners from windows)
+![windowed preview](pics/windowed.png?raw=true)
+#### Maximized
+![maximized preview](pics/maximized.png?raw=true)
+#### Fullscreen (autohide top toolbar)
+![fullscreen preview](pics/fullscreen.png?raw=true)
 
 ## Contents
 - [Contents](#contents)

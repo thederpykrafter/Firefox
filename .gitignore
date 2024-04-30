@@ -4,6 +4,10 @@
 # commit these
 !.gitignore
 !README.md
+!LICENSE
+!pics/
+!pics/*
+
 !user.js
 !chrome/
 !chrome/*
