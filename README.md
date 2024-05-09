@@ -1,4 +1,7 @@
 # tdk.firefox
+
+<a href="https://wakatime.com/badge/github/thederpykrafter/tdk.firefox"><img src="https://wakatime.com/badge/github/thederpykrafter/tdk.firefox.svg" alt="wakatime"></a>
+
 My slightly modified Firefox CSS theme<br>
 [Original Theme](https://github.com/hakan-demirli/Firefox_Custom_CSS) by 
 [hakan-demirli](https://github.com/hakan-demirli)<br>
