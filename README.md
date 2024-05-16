@@ -3,6 +3,8 @@
 <a href="https://wakatime.com/badge/github/thederpykrafter/tdk.firefox"><img src="https://wakatime.com/badge/github/thederpykrafter/tdk.firefox.svg" alt="wakatime"></a>
 
 My slightly modified Firefox CSS theme<br>
+Use [Firefox Color Addon](https://color.firefox.com/?theme=XQAAAAJCAQAAAAAAAABBqYhm849SCia3ftKEGccwS-xMDPrv2Sw6Caq-qy5QgqeHG4K15QcrDwIkmgjiMt982DgWhmsaa6HAbqbuA9Kv-Hq9_l_9uOBAFFpKWQIi-cXmmFHpXqEANeTRGpb8ehdkfTYPP9U_ZXCMLd5yNKzlg8IIqeGOhCLC837nhim2wImITx_i2UTz-_eciFAPvPH5UV743DMLLovf6HvfksE29265GnPDUyC6qaFJsnpdmqP756niHtZBUii_qYUB6Cd8c9W4lY6dGRJ__-dRzAA)<br>
+
 [Original Theme](https://github.com/hakan-demirli/Firefox_Custom_CSS) by 
 [hakan-demirli](https://github.com/hakan-demirli)<br>
 
