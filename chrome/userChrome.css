@@ -5,35 +5,28 @@
 #nav-bar {
   /* move navbar up */
   margin-top: -30px;
-  margin-right: 135px;
-  margin-bottom: 0px;
-  margin-left: -9px;
+  margin-right: 90px;
+  margin-left: -11px;
 }
 
 /*************************************************** SIDEBERY ***************************************************/
 #sidebar-header{ display: none }
 
 #sidebar-box {
-  min-width: 160px !important;
-}
-
-/* make splitter transparent */
-#sidebar-splitter {
-  border-right: solid #0e0e0e !important;
-  padding-left: 4px !important;
+  min-width: 60px !important;
 }
 
 /************************************************ Hover_text_color ***************************************************/
-tooltip{-moz-appearance: none !important; background:#232323 !important; color: #ededed}
+tooltip{
+  -moz-appearance: none !important;
+  background:#000000 !important;
+  color: #ffffff;
+  border-radius: 15px;
+}
 
 /******************************************* Remove_Padding_and_button_fix *************************************************/
 #urlbar-container{ padding-block: 0px !important }
 .titlebar-buttonbox-container{ -moz-box-align: start !important; }
-
-/*************************************** Remove 1 pixel sized black line *********************************************/
-#navigator-toolbox {
-  border-bottom: none !important;
-}
 
 /*************************************** Shrink toolbar by 1 pixel *********************************************/
 #navigator-toolbox{
