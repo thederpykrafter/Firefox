@@ -1,52 +1,37 @@
-/*************************************************** Modified One_Liner ***************************************************/
-/* hide browser tabs */
-#tabbrowser-tabs { visibility: collapse !important; }
+/* MPL 2.0 https://github.com/soulhotel/FF-ULTIMA/blob/main/LICENSE */
 
-#nav-bar {
-  /* move navbar up */
-  margin-top: -30px;
-  margin-right: 135px;
-  margin-bottom: 0px;
-  margin-left: -9px;
-}
+/*  
+Change tab size?
+Change autohide option?
+Want to use sidebery instead? + More.
+Come to the modification page: https://github.com/soulhotel/FF-ULTIMA/blob/main/doc/Modification.md
+*/
 
-/*************************************************** SIDEBERY ***************************************************/
-#sidebar-header{ display: none }
+@import url(theme/all-global-positioning.css);
 
-#sidebar-box {
-  min-width: 160px !important;
-}
+@import url(theme/all-global-theme-fullmoon.css);
+@import url(theme/all-global-theme-dusky.css);
 
-/* make splitter transparent */
-#sidebar-splitter {
-  border-right: solid #0e0e0e !important;
-  padding-left: 4px !important;
-}
+@import url(theme/position-verttab.css);
+@import url(theme/position-verttab-gone.css);
+@import url(theme/position-findbar.css);
 
-/************************************************ Hover_text_color ***************************************************/
-tooltip{-moz-appearance: none !important; background:#232323 !important; color: #ededed}
+@import url(theme/function-tabs-autohide-i.css); 
 
-/******************************************* Remove_Padding_and_button_fix *************************************************/
-#urlbar-container{ padding-block: 0px !important }
-.titlebar-buttonbox-container{ -moz-box-align: start !important; }
+@import url(theme/function-mini-button-bar.css);
+@import url(theme/function-tabs-collapse.css);
+@import url(theme/function-containers-indicator.css);
+@import url(theme/function-menu-button.css);
+@import url(theme/function-privatemode-indicator.css); /* sourced from MOG */
+@import url(theme/function-urlbar.css);
+@import url(theme/function-extensions-menu.css);
 
-/*************************************** Remove 1 pixel sized black line *********************************************/
-#navigator-toolbox {
-  border-bottom: none !important;
-}
+@import url(theme/theme-return-window-controls.css);
+@import url(theme/theme-context-menu.css);
+@import url(theme/theme-menubar.css);
+@import url(theme/theme-statuspanel.css);
+@import url(theme/theme-PIP.css);
+@import url(theme/theme-tab-audio-indicator.css);
 
-/*************************************** Shrink toolbar by 1 pixel *********************************************/
-#navigator-toolbox{
-  --toolbarbutton-inner-padding: 4px;
-}
-#urlbar-container{
-  --urlbar-container-height: 20px !important;
-  padding-block: 1px !important;
-}
-toolbarbutton.bookmark-item:not(.subviewbutton){
-  margin: 0px !important;
-  padding-block: 0 !important;
-}
-
-/*************************************** Remove Right Click Menu Top Settings ****************************************/
-#context-navigation,#context-sep-navigation{ display: none !important }
+@import url(theme/override-linux.css);
+@import url(theme/override-styles.css);

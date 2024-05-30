@@ -1,64 +1,22 @@
-/*************************************************** Home_screen_wallpaper ***************************************************/
+/* 
+https://github.com/soulhotel/FF-ULTIMA
 
-@-moz-document url("about:newtab"), url("about:home") {
-    body {
-        overflow: hidden !important;
-    }
-    #root {
-        background-image: url("my_wallpaper.jpg") !important;
-        background-size: cover !important;
-    }
-    /* Make the search bar rounded */
-    #newtab-search-text,
-    #searchSubmit {
-		border-radius: 50px !important;
-	}
-}
+z-sites-newtab.css ~ NEW TABS
 
-/*********************************************** TOP_sites_settings **************************************************/
-@-moz-document url-prefix(about:newtab){
-.top-site-outer .title {
-  /*color: black !important;*/ /*change color of the texts of the "top_sites"*/
-  }
-.top-site-outer .title {
-  font-size: 110px;
-  }
-.top-site-outer .title {
-  font-weight: bold;
-  }
-}
-.top-site-outer:is(.active, :focus, :hover) { /*Remove dark-gray mouse hover box*/
-  box-shadow: none !important;
-  background:transparent !important;
-}
-@-moz-document url("about:home"), url("about:newtab"){
-  .tile > .icon-wrapper{
-    width: 100% !important;
-    height: 100% !important;
-  }
-}
+z-sites.css ~ themes YOUTUBE and REDDIT
 
-/*********************************************** Dark_mode_pdf **************************************************/
-@-moz-document regexp(".+\.pdf$"){
-  .pdfViewer .page{ background: #38383D !important }
-  .loadingIcon+.canvasWrapper{ visibility: hidden }
-}
-@-moz-document regexp("^(?!.*\\.pdf\\?n).*") {
-  #sidebarContainer > #sidebarContent > #thumbnailView {
-      --sidebaritem-bg-color: #38383D;
-  }
+z-site-scrollbars-and-pip.css ~ themes the scrollbar inside of your browser tab content
 
-  #viewerContainer > #viewer .page > .canvasWrapper > canvas {
-      filter: grayscale(10%) invert(90%);
-  }
+To remove a certain feature, simple delete its line below, open website in new tab, no restart needed.
+*/
 
-  #sidebarContainer > #sidebarContent > #thumbnailView .thumbnailImage {
-      filter: grayscale(10%) invert(90%);
-      box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0.5), 0 2px 8px hsla(0, 0%, 100%, 0.3) !important;
-  }
-}
+@import url(theme/z-site-scrollbars-and-pip.css);
 
-/*********************************************** Thin_scroll_bar *****************************************************/
-:root{ scrollbar-color: rgb(210,210,210) rgb(42,42,46) }
-*{ scrollbar-width: thin }
+@import url(theme/z-site-newtab.css);
+
+@import url(theme/z-site-reddit.css);
+
+@import url(theme/z-site-yt.css);
+
+/*@import url(theme/z-sites.css);*/
 
