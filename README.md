@@ -1,4 +1,4 @@
-# <p align="center"> FF ULTIMA... </p>
+# <p align="center"> TDK FF ULTIMA... </p>
 
 ###### <p align="center">. . . a sequel to [Perfection FF CSS Theme](https://github.com/soulhotel/Perfection-Firefox-CSS-Theme) </p>
 
