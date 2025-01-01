@@ -78,9 +78,9 @@ Spreadsheet of what every ultima-variable does: https://github.com/soulhotel/FF-
 /*--quick hack, bigger sidebar, 50vw = 50% of the screen width--*/
 /*--great for view-tab-in-sidebar extensions--*/
 #sidebar-box {
-    max-width: 50vw !important;
+    max-width: 200px !important;
 } #sidebar-box {
-    min-width: 40px !important;
+    min-width: 34px !important;
     width: 18em;
 }   /*defaults*/
 
